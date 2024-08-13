@@ -1,0 +1,883 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    font-family: "Inter";
+
+}
+
+/* header sec  */
+.header {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    padding-top: 50px;
+}
+
+.header-left {
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    width: 86%;
+}
+
+.fa-bars:before,
+.fa-navicon:before {
+    visibility: hidden;
+}
+
+.humbergur {
+    visibility: hidden;
+}
+
+.logo-sec {
+    display: flex;
+}
+
+.logo-image img {
+    width: 48px;
+    object-fit: cover;
+}
+
+.logo-text {
+    display: flex;
+    align-items: baseline;
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+
+}
+
+.item {
+    list-style: none;
+    margin-right: 40px;
+
+}
+
+.bor {
+    border: 1px solid #414141;
+    padding: 11px 5px;
+    border-radius: 50px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Inter";
+}
+
+.dis-flex {
+    display: flex;
+
+}
+
+.fitness {
+    color: #e6533c;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    font-family: "Inter";
+    margin-top: 0px;
+}
+
+.home-btn {
+    text-align: center;
+    font-family: "Inter";
+    font-size: 18px;
+    /* font-weight: 600; */
+    color: #ffffff;
+    background: #e6533c;
+    padding: 7px 25px;
+    border-radius: 35px;
+}
+
+.banner-img {
+    background-color: #212121;
+    background: linear-gradient(90deg, #212121, #2a2929);
+
+}
+
+.headline h1 {
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    line-height: 120%;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+}
+
+.headline span {
+    font-family: 'Miama', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 10rem;
+    font-weight: 100;
+}
+
+.headline-p {
+    color: #837a7a;
+    font-family: "Inter", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 38rem;
+}
+
+.headline-btn1 {
+    background-color: #E6533C;
+    padding: 13px 25px;
+    font-size: 15px;
+    color: white;
+    border-radius: 36px;
+    border: none;
+    font-weight: 600;
+    margin-right: 1rem;
+}
+
+.headline-btn2 {
+    background-color: #212121;
+    padding: 13px 25px;
+    font-size: 15px;
+    color: white;
+    border-radius: 36px;
+    border: 1px solid white;
+    font-weight: 600;
+}
+
+.divide {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+/* img sec  */
+
+.banner-card {
+    position: relative;
+    margin-left: 20px;
+}
+
+.banner-card img {
+    width: 100%;
+}
+
+.red-circle {
+    width: 40px;
+    height: 40px;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+    margin-left: .5rem;
+}
+
+.card-back {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    width: 180px;
+    height: 90px;
+    text-align: center;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    position: absolute;
+    top: 27%;
+    left: 65%;
+    text-align: left;
+}
+
+.card2 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 70%;
+    left: -23%;
+    text-align: left;
+}
+
+.card1 h1 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 1rem;
+}
+
+.card2 h1 {
+    color: rgb(250, 250, 249);
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-left: .5rem;
+}
+
+.card1 p {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.card2 p {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    text-align: left;
+    margin-left: .5rem;
+}
+
+.black {
+    background-color: #000;
+}
+
+/* Change Your Habits Sec */
+.habit-flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+
+.habit {
+    text-align: center;
+    font-family: "Inter";
+}
+
+.habit h1 {
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.habit p {
+    color: #606060;
+    width: 42rem;
+    margin: 0 auto;
+}
+
+.habit-img {
+    text-align: center;
+}
+
+.habit-img img {
+    border: 5px solid #191919;
+    border-radius: 100px;
+}
+
+.habit-img h3 {
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.habit-img p {
+    color: #5e5e5e;
+}
+
+/* run an extra sec  */
+.run-back {
+    background-color: #222222;
+    border-radius: 2rem;
+    margin-top: 7rem;
+    padding: 3rem;
+}
+
+.run-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.run-text h1 {
+    color: white;
+    font-family: "Inter";
+    font-size: 3rem;
+}
+
+.run-text p {
+    max-width: 27rem;
+    margin-top: 2rem;
+    color: #919191;
+    margin-bottom: 3rem;
+}
+
+.run-btn {
+    background-color: #E6533C;
+    padding: 16px 70px;
+    font-size: 15px;
+    color: white;
+    border-radius: 36px;
+    border: none;
+    font-weight: 600;
+}
+
+.run-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Trainings and Exercises */
+.trainings {
+    margin-top: 2rem;
+    font-family: "Inter";
+}
+
+.trainings-text h1 {
+    color: white;
+    font-family: "Inter";
+    font-size: 3rem;
+}
+
+.trainings-text p {
+    max-width: 35rem;
+    margin-top: 2rem;
+    color: #919191;
+    margin-bottom: 3rem;
+}
+
+.trainings-main {
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.trainings-img1 {
+    background-image: linear-gradient(rgba(6, 255, 210, 0.5), rgba(6, 255, 210, 0.5)), url(../images/exercise1.jpg);
+}
+
+.trainings-img2 {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)), url(../images/exercise2.png);
+}
+
+.trainings-img3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/exercise3.png);
+}
+
+.trainings-img4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/exercise4.png);
+}
+
+.trainings-img5 {
+    background-image: linear-gradient(rgba(66, 255, 0, 0.3), rgba(66, 255, 0, 0.3)), url(../images/exercise5.jpg);
+}
+
+.trainings-img6 {
+    background-image: linear-gradient(rgba(0, 71, 255, 0.3), rgba(0, 71, 255, 0.3)), url(../images/exercise6.jpg);
+}
+
+.trainings-sec1 {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+}
+
+.trainings-sec2 {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+}
+
+.trainings-img1 h6 {
+    position: absolute;
+    top: 13rem;
+    left: 1rem;
+    color: white;
+    font-size: 15px;
+}
+
+.trainings-img2 h6 {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    color: white;
+    font-size: 15px;
+}
+
+.trainings-img3 h6 {
+    position: absolute;
+    top: 13rem;
+    left: 1rem;
+    color: white;
+    font-size: 15px;
+}
+
+.trainings-img4 h6 {
+    position: absolute;
+    top: 2rem;
+    left: 30rem;
+    color: white;
+    font-size: 15px;
+}
+
+.trainings-img5 h6 {
+    position: absolute;
+    top: 13rem;
+    left: 1rem;
+    color: white;
+    font-size: 15px;
+}
+
+.trainings-img6 h6 {
+    position: absolute;
+    top: 13rem;
+    left: 1rem;
+    color: white;
+    font-size: 15px;
+}
+
+/* BMI Calculator  */
+.bmi h1 {
+    color: white;
+    font-family: "Inter";
+    font-size: 1.75rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.bmi p {
+    color: rgba(255, 255, 255, 0.5);
+    width: 38rem;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+.bmi-back {
+    background-color: #222222;
+    font-family: "Inter";
+}
+
+.bmi-text h1 {
+    color: white;
+    font-family: "Inter";
+    font-size: 1.75rem;
+
+}
+
+
+.table {
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.table tr th {
+    border: 1px solid #383838;
+    border-collapse: collapse;
+    padding: 15px 20px 8px 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.table tr td {
+    border: 1px solid #383838;
+    border-collapse: collapse;
+    padding: 30px 23px 20px 30px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+}
+
+.input1 input {
+    padding: 14px 25px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    width: 18rem;
+    background-color: #434242;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.place::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.option1 {
+    width: 18rem;
+    padding: 14px 25px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+    background-color: #434242;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.option2 {
+    width: 36.313rem;
+    padding: 15px 25px;
+    margin-top: 10px;
+    background-color: #434242;
+    color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.bmi {
+    justify-content: space-evenly;
+    font-family: "Inter";
+}
+
+.bmi-box {
+    color: white;
+    font-family: "Inter";
+    font-size: 1.75rem;
+
+}
+
+.bmi-btn {
+    background-color: #E6533C;
+    padding: 16px 70px;
+    font-size: 15px;
+    color: white;
+    border-radius: 36px;
+    border: none;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+/* meet sec  */
+.meet {
+    text-align: center;
+    font-family: "Inter";
+}
+
+.meet h1 {
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.meet p {
+    color: #606060;
+    width: 42rem;
+    margin: 0 auto;
+    /* margin-bottom: 15px; */
+    padding-bottom: 60px;
+}
+
+.team-back {
+    font-family: "Inter";
+}
+
+.team-main {
+    height: 300px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 18px;
+}
+
+.team-img1 {
+    background-image: url(../images/trainer1.png);
+}
+
+.team-img2 {
+    background-image: url(../images/trainer2.png);
+}
+
+.team-img3 {
+    background-image: url(../images/trainer3.png);
+}
+
+.team-img4 {
+    background-image: url(../images/trainer4.png);
+}
+
+.team-img5 {
+    background-image: url(../images/trainer5.png);
+}
+
+.team-img6 {
+    background-image: url(../images/trainer6.png);
+}
+
+.team-sec1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+}
+
+.team-img1 h6 {
+    position: absolute;
+    top: 15.625rem;
+    left: 2rem;
+    color: white;
+    font-size: 20px;
+}
+
+.team-img2 h6 {
+    position: absolute;
+    top: 15.625rem;
+    left: 2rem;
+    color: white;
+    font-size: 20px;
+}
+
+.team-img3 h6 {
+    position: absolute;
+    top: 15.625rem;
+    left: 2rem;
+    color: white;
+    font-size: 20px;
+}
+
+.team-img4 h6 {
+    position: absolute;
+    top: 15.625rem;
+    left: 2rem;
+    color: white;
+    font-size: 20px;
+}
+
+.team-img5 h6 {
+    position: absolute;
+    top: 15.625rem;
+    left: 2rem;
+    color: white;
+    font-size: 20px;
+}
+
+.team-img6 h6 {
+    position: absolute;
+    top: 15.625rem;
+    left: 2rem;
+    color: white;
+    font-size: 20px;
+}
+
+.team-img1 p {
+    position: absolute;
+    top: 17rem;
+    left: 2rem;
+    color: rgba(245, 249, 245, 0.737);
+    font-size: 15px;
+}
+
+.team-img2 p {
+    position: absolute;
+    top: 17rem;
+    left: 2rem;
+    color: rgba(245, 249, 245, 0.737);
+    font-size: 15px;
+}
+
+.team-img3 p {
+    position: absolute;
+    top: 17rem;
+    left: 2rem;
+    color: rgba(245, 249, 245, 0.737);
+    font-size: 15px;
+}
+
+.team-img4 p {
+    position: absolute;
+    top: 17rem;
+    left: 2rem;
+    color: rgba(245, 249, 245, 0.737);
+    font-size: 15px;
+}
+
+.team-img5 p {
+    position: absolute;
+    top: 17rem;
+    left: 2rem;
+    color: rgba(245, 249, 245, 0.737);
+    font-size: 15px;
+}
+
+.team-img6 p {
+    position: absolute;
+    top: 17rem;
+    left: 2rem;
+    color: rgba(245, 249, 245, 0.737);
+    font-size: 15px;
+}
+
+/* unique sec  */
+.uni-container {
+    width: 60%;
+    margin: 0 auto;
+}
+.unique-box1 {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+.unique-text {
+    color: rgb(0, 0, 0);
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+    text-align: center;
+}
+.primary-des {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.img1 {
+    overflow: hidden;
+    margin-right: 25px;
+
+}
+
+.img1 img {
+    transition: all linear 0.5s;
+}
+
+.img1:hover img {
+    transform: rotate(360deg);
+}
+
+.img2 {
+    overflow: hidden;
+    margin-right: 25px;
+
+}
+
+.img2 img {
+    transition: all linear 0.5s;
+}
+
+.img2:hover img {
+    transform: rotate(45deg);
+}
+
+.img3 {
+    overflow: hidden;
+    margin-right: 25px;
+
+}
+
+.img3 img {
+    transition: all linear 0.5s;
+}
+
+.img3:hover img {
+    transform: rotate(-45deg);
+}
+
+.img4 {
+    overflow: hidden;
+    margin-right: 25px;
+
+}
+
+.img4 img {
+    transition: all linear 0.5s;
+}
+
+.img4:hover img {
+    transform: rotate(-30deg);
+}
+
+.img-mbox2 {
+    display: flex;
+    margin-left: 230px;
+    margin-top: 20px;
+}
+
+.img5 {
+    overflow: hidden;
+    margin-right: 25px;
+
+}
+
+.img5 img {
+    transition: all linear 0.5s;
+}
+
+.img5:hover img {
+    transform: rotate(35deg);
+}
+
+.img6 {
+    overflow: hidden;
+    margin-right: 25px;
+
+}
+
+.img6 img {
+    transition: all linear 0.5s;
+}
+
+.img6:hover img {
+    transform: rotate(360deg) scale(1.5);
+}
+
+/* footer  */
+.foot-back {
+    background-color: #191919;
+    color: white;
+
+}
+
+.foot-fitness {
+    color: rgb(230, 83, 60);
+    font-size: 70px;
+    font-weight: 800;
+    text-align: left;
+    font-style: italic;
+}
+
+.foot-p {
+    width: 30rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.foot-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Inter";
+    padding-top: 25px;
+}
+
+.gt-1 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.gt1 li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.gt1 li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+    text-align: left;
+}
+.hr-line {
+    margin-top: 25px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.hr-linee p{
+    padding-top: 10px;
+    padding-bottom :30px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-family: "Inter";
+}
